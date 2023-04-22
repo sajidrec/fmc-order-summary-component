@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+  <!-- googl font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+  <!-- tailwind -->
+  <!-- <link rel="stylesheet" href="./css/tailwind.css"> -->
+
+  <!-- tailwind generated -->
+  <link rel="stylesheet" href="./css/style.min.css">
+
+</head>
+
+<body
+  class="flex flex-col gap-1 bg-[url('/images/pattern-background-mobile.svg')] bg-no-repeat desktop:bg-[url('/images/pattern-background-desktop.svg')] h-screen bg-contain bg-custom-Pale-blue">
+
+  <main class="font-Red-Hat-Display h-full flex flex-col justify-center items-center">
+
+    <div class="max-w-[312px] desktop:max-w-[370px] bg-white rounded-2xl ">
+
+      <img src="./images/illustration-hero.svg" class="rounded-t-2xl" alt="...">
+
+      <section class="text-center mb-4">
+        <h1 class="py-5 text-custom-Dark-blue text-xl font-bold">
+          Order Summary
+        </h1>
+        <p class="text-[14px] text-custom-Desaturated-blue px-9">
+          You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!
+        </p>
+      </section>
+
+      <div class="px-5 desktop:px-7">
+
+        <div class="flex flex-row items-center gap-5 p-4 bg-custom-Very-pale-blue rounded-xl">
+          <img src="./images/icon-music.svg" alt="...">
+          <div>
+            <span class="font-bold text-[16px]">
+              Annual Plan
+            </span>
+            <span class="text-[14px] text-custom-Desaturated-blue">
+              $59.99/year
+            </span>
+          </div>
+          <a href="#"
+            class="underline font-semibold underline-offset-1 text-custom-Bright-blue text-[14px] hover:no-underline hover:opacity-80">
+            Change
+          </a>
+        </div>
+
+        <button
+          class="bg-custom-Bright-blue text-custom-Very-pale-blue w-full rounded-lg py-2 my-5 hover:bg-[#756bf0] shadow-[0px_16px_16px_#d6d3fc]">
+          Proceed to Payment
+        </button>
+
+        <div class="text-center pb-6 text-custom-Desaturated-blue font-bold">
+          <span class="hover:cursor-pointer hover:text-custom-Dark-blue">
+            Cancel Order
+          </span>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <footer class="attribution mt-2 desktop:text-lg">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/sajidrec" target="_blank">MD. Sajid Hossain</a>.
+    </footer>
+
+  </main>
+</body>
+
+</html>
